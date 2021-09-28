@@ -1,0 +1,19 @@
+{
+  "name": "nomadcoffee",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biinggala/nomadcoffee-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biinggala/nomadcoffee-backend/issues"
+  },
+  "homepage": "https://github.com/biinggala/nomadcoffee-backend#readme"
+}
