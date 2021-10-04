@@ -16,7 +16,8 @@ export default {
         }
         //password를 암호화
         const uglyPassword = await bcrypt.hash(password, 10);
-        client.user.create({
+
+        await client.user.create({
           data: {
             username,
             email,

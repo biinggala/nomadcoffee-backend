@@ -9,6 +9,6 @@ export default gql`
       avatarURL: String
       githubUsername: String
       password: String!
-    ): mutationResult!
+    ): MutationResult!
   }
 `;
