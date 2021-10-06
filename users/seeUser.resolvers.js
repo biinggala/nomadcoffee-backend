@@ -40,5 +40,7 @@ export default {
         skip: lastId ? 1 : 0,
         ...(lastId && { cursor: { id: lastId } }),
       }),
+    coffeeShop: ({ id }) =>
+      client.user.findUnique({ where: { id } }).coffeeShop(),
   },
 };

@@ -14,7 +14,7 @@ const resolverFn = async (
     const newFilename = `${loggedInUser.id}-${Date.now()}-${filename}`;
     const readStream = createReadStream();
     const writeStream = createWriteStream(
-      process.cwd() + "/uploads/" + newFilename
+      process.cwd() + "/uploads/avatar/" + newFilename
     ); //사진 파일을 /uploads에 저장
     readStream.pipe(writeStream);
     avatarLink = `http://localhost:4000/static/${newFilename}`;

@@ -11,6 +11,7 @@ export default gql`
     githubUsername: String
     following(lastId: Int): [User]
     followers(lastId: Int): [User]
+    coffeeShop: [CoffeeShop]
     totalFollowers: Int!
     totalFollowing: Int!
     isMe: Boolean!
