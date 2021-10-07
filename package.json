@@ -38,10 +38,11 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.5",
+    "@babel/core": "^7.15.8",
     "@babel/node": "^7.15.4",
     "@babel/plugin-transform-runtime": "^7.15.8",
     "@babel/preset-env": "^7.15.6",
+    "@babel/runtime": "^7.15.4",
     "nodemon": "^2.0.13",
     "prettier-plugin-prisma": "^3.1.1",
     "prisma": "^3.1.1"
