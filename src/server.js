@@ -13,6 +13,7 @@ async function startServer() {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
+    introspection: true,
     plugins: [ApolloServerPluginLandingPageGraphQLPlayground()],
     context: async ({ req }) => {
       //context 내부의 값은 모든 resolver에서 받을 수 있음
